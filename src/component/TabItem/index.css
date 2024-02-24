@@ -1,0 +1,36 @@
+/* index.css */
+
+.tab-item-container {
+  /* Add your styles for the container here */
+  display: flex;
+  /* justify-content: space-between; */
+ flex-direction: row;
+}
+
+.tab-btn {
+  /* Add your styles for the buttons here */
+  padding: 10px 20px;
+  border: none;
+  background-color: #ddd; /* Light grey background */
+  color: black; /* Black text color */
+  cursor: pointer; /* Hand cursor on hover */
+  
+
+}
+
+.tab-btn:hover {
+  /* Add your styles for button hover here */
+  background-color: #bbb; /* Darker grey on hover */
+}
+
+.tab-btn:focus {
+  /* Add your styles for button focus here */
+  outline: none;
+  box-shadow: 0px 0px 5px #333; /* Add shadow on focus */
+}
+
+.tab-list-container {
+  /* Add your styles for the list container here */
+  margin-top: 10px;
+}
+

@@ -1,0 +1,46 @@
+.project-list-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    list-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+ 
+  }
+  
+  .project-item-container {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    bottom: 20px; /* Adjust the value to your desired position */
+  }
+
+  .project-item-container:hover{
+    /* flex-basis: 3px; */
+    background-color: rgb(126, 123, 123);
+  }
+  
+  
+  .project-item-image {
+    width: 100px; /* Adjust the size of the project item image */
+    height: 100px; /* Adjust the size of the project item image */
+    margin-right: 20px; /* Adjust the space between the image and the details */
+    border-radius: 8px; /* Add rounded corners to the image */
+  }
+  
+  .project-item-details-container {
+    flex: 1;
+  }
+  
+  .project-item-title {
+    font-size: 18px; /* Adjust the size of the project item title */
+    margin: 0;
+    margin-bottom: 10px; /* Adjust the space between the title and description */
+  }
+  
+  .project-item-description {
+    margin: 0;
+    font-size: 14px; /* Adjust the size of the project item description */
+  }
+  
+  
